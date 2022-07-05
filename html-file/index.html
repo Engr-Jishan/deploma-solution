@@ -63,9 +63,62 @@
     </section>
     <!--End nav bar -->
 
+    <!-- star home section  -->
+    <section>
+        <div class="home-contect content">
+            <div class="contect-wrapper">
+                <h1 class="common-blue main-heding text-center">Diploma In Enginnering Result</h1>
+                <div class="home-img text-center">
+                    <img src="/images/home-img.svg" alt="">
+                </div>
+                <p class="home-pera text-center common-blue">
+                    "The exam results of regular and irregular studesnts of the 4th, 6th, and 8th semester are avilable
+                    here!"
+                    <br>
+                    "Also, you can try out the"
+                    <span class="underlined text">
+                        <a href="/cgpacluculator" style="color: rgb(31, 143, 229);">CGPA Calculator</a>
+                    </span>
+                </p>
+                <form style="text-align: center;">
+                    <label class="common-blue" for="single" style="font-size: 18px;">Select Result Type
+                    </label>
+                    <br>
+                    <input type="radio" id="single" name="options" checked>
+                    <label for="single" class="common-blue" style="margin-right: 50px;">Single Result</label>
+                    <input type="radio" id="group" name="optons">
+                    <label class="common-blue" for="group">Group Result</label>
+                </form>
 
-
-    <!-- End section -->
+                <form>
+                    <label for="roll" class="common-blue">Enter Roll</label>
+                    <br>
+                    <input placeholder="Example: 944493" type="number" name="roll" class="roll" required>
+                    <br>
+                    <select name="semester" id="semester" required>
+                        <option value="">Select semester</option>
+                        <option value="4th">4th semester</option>
+                        <option value="6th">6th semester</option>
+                        <option value="8th">8th semester</option>
+                    </select>
+                    <span>
+                        <a href="/terms">Terms of service</a>
+                    </span>
+                    <div class="form-btn text center">
+                        <button class="btn-form" type="submit">
+                            Search
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- <div class="footer text-center">
+            <p class="common-blue footer-text">
+                "Made with"
+            </p>
+        </div> -->
+    </section>
+    <!-- End body section  -->
 </body>
 
 </html>
