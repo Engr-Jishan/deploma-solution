@@ -73,3 +73,40 @@ img,
 h1.common-blue main-heding.text-center {
     color: #a3dbdb;
 } */
+
+.home {
+    background-color: #15202c;
+}
+
+.home-contect content {
+    background: #15202c;
+    /* padding: 40px 0px; */
+    padding-top: 100px;
+}
+
+/* .common-blue main-heding text-center {
+    color: #A3DBDB;
+} */
+
+.contect-wrapper {
+    color: #A3DBDB;
+}
+
+form {
+    text-align: center;
+}
+
+input,
+.roll {
+    background: #607c98;
+    margin: 5px 0px 10px;
+    padding: 13px;
+}
+
+select,
+#semester {
+    color: #000000;
+    background: #ffffff;
+    margin: 5px 0px 10px;
+    padding: 13px;
+}
